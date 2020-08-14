@@ -42,13 +42,13 @@ const Cards = (props) => {
         <Grid
           item
           component={Card}
-          className={cx(styles.card, styles.recoveryed)}
+          className={cx(styles.card, styles.recovered)}
           xs={12}
           md={3}
         >
           <CardContent>
             <Typography color="textSecondary" gutterBottom>
-              recovery
+              recovered
             </Typography>
             <Typography variant="h5">
               <CountUp
@@ -62,7 +62,7 @@ const Cards = (props) => {
               {new Date(lastUpdate).toDateString()}
             </Typography>
             <Typography variant="body2">
-              Number of recovery case of COVID-19
+              Number of recovered case of COVID-19
             </Typography>
           </CardContent>
         </Grid>
